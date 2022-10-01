@@ -2,9 +2,8 @@
     display: grid;
     font-family: 'Montserrat', sans-serif;
 }
-.services-brands{
-    display: grid;
-    margin-bottom: 40px;
+.brands-services{
+    background-color: #eeeeee;
 }
 .brands{
     display: grid;
@@ -13,5 +12,8 @@
     align-items: baseline;
 }
 .headline{
-    text-align: center;
+    display:grid;
+    text-align:center;
+    font-size: 3em;
+    font-weight: 600;
 }
