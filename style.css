@@ -60,6 +60,7 @@ footer{
     color: #ffffff;
     justify-content: center;
     text-align: center;
+    padding: 30px;
 }
 .footer-headline h1{
     font-size: 4em;
@@ -69,6 +70,8 @@ footer{
     display: grid;
     align-items: center;
     justify-items: center;
+    padding: 30px;
+    gap: 20px;
 }
 .saasify{
     display: grid;
@@ -76,4 +79,7 @@ footer{
     border-top: 1px solid rgba(250, 249, 249, 0.4);
     border-bottom:1px solid rgb(250, 249, 249, 0.4);
     grid-template-columns: 30% 1fr 1fr 1fr 1fr;
+}
+.saasify p{
+    color: rgb(250, 249, 249, 0.4);
 }
