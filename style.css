@@ -45,6 +45,29 @@
 .card h5{
     font-weight: 700;
 }
-footer{
-    background-color: #040335;
+.white-button{
+  background-color: #ffffff;
+  color: #0F0BC7;   
+  border-radius: 25px; 
+  font-weight: 700;  
+  padding: 10px;
+  width: 30%;
+  border: none;
 }
+footer{
+    display: grid;
+    background-color: #040335;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+}
+.footer-headline h1{
+    font-size: 3em;
+    font-weight: 600;
+}
+.footer-headline{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.saasify{}
