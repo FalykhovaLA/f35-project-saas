@@ -2,9 +2,16 @@
     display: grid;
     font-family: 'Montserrat', sans-serif;
 }
+.services-brands{
+    display: grid;
+    margin-bottom: 40px;
+}
 .brands{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     justify-items: center;
     align-items: baseline;
+}
+.headline{
+    text-align: center;
 }
