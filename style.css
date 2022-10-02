@@ -6,7 +6,7 @@
     display: grid;
     justify-content: space-around;
     align-items: center;
-    background-color: #f8f8f8;
+    background-color: #eeeeee;
     padding: 30px;
     gap: 20px;
 }
