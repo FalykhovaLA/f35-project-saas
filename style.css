@@ -169,3 +169,17 @@ justify-content: start;
 .s1_c2_img{
     max-width: 100%;
 }
+.testimonial-section{
+    display: grid;
+    background-color: #eeeeee;
+    justify-content: center;
+}
+.testimonial-section h2{
+    font-size: 3em;
+    font-weight: 600
+}
+.testimonial-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
