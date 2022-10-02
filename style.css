@@ -1,0 +1,200 @@
+.site{
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+}
+.brands-services{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eeeeee;
+    padding: 30px;
+    gap: 20px;
+}
+.brands{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    justify-items: center;
+    align-items: baseline;
+}
+.headline{
+    display:grid;
+    text-align:center;
+    font-size: 3em;
+    font-weight: bolder;
+}
+.services-cards{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    padding: 30px;
+}
+.card{
+    display: grid;
+    padding: 35px;
+    gap: 30px;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.card a{
+        color: #0F0BC7;
+        text-decoration: none;
+        font-weight: 600;
+}
+.card h5{
+    font-weight: 700;
+}
+.white-button{
+  background-color: #ffffff;
+  color: #0F0BC7;   
+  border-radius: 30px; 
+  font-weight: 700;  
+  padding: 10px;
+  width: 15vw;
+  height: 60px;
+  border: none;
+}
+footer{
+    display: grid;
+    background-color: #040335;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+.footer-headline h1{
+    font-size: 4em;
+    font-weight: 600;
+}
+.footer-headline{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+.saasify{
+    display: grid;
+    width: 100vw;
+    border-top: 1px solid rgba(250, 249, 249, 0.4);
+    border-bottom: 1px solid rgb(250, 249, 249, 0.4);
+    grid-template-columns: 30% 1fr 1fr 1fr 1fr;
+    padding: 25px ;
+    justify-content: center;
+    align-items: baseline;
+}
+.saasify h5{
+    font-size: 1em;
+    font-weight:bold;
+}
+.saasify p{
+    color: rgb(250, 249, 249, 0.4);
+}
+.copyright{
+    display: grid;
+    padding: 25px ;
+    justify-content: center;
+    align-items: center;
+}
+.saasify a{
+    color: rgb(250, 249, 249, 0.4);
+    text-decoration: none;
+}
+.product{
+    display: grid;
+    text-align: start;
+    padding: 25px;
+    gap: 15px;
+}
+.section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section1_content{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-bottom: 20%;
+    margin-right: 0%;
+    width: 60%;
+    height: 50%;
+}
+.s1_c_c1{
+font-family: 'Inter';
+font-style: normal;
+font-weight:bold;
+font-size: 3.1vw;
+line-height: 112%;
+letter-spacing: -0.03em;
+
+color: #000000;
+}
+.s1_c_c2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: bolder;
+font-size: 2.2vh;
+line-height: 144%;
+
+letter-spacing: -0.02em;
+
+color: #000000;
+opacity: 0.8;
+}
+.blue_button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 40px;
+width: 50%;
+height: 40%;
+color: white;
+font-weight: bold;
+
+background: linear-gradient(106.75deg, #2272FF 0%, #0D03C3 100%);
+border-radius: 40px;
+}
+.section1_aside{
+    width: 80%;
+height: 80%;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 0%;
+align-self: start;
+justify-content: start;
+}
+.s1_c2_img{
+    max-width: 100%;
+}
+.testimonial-section{
+    display: grid;
+    background-color: #eeeeee;
+    justify-content: center;
+    text-align: center;
+}
+.testimonial-section h2{
+    font-size: 3em;
+    font-weight: 600
+}
+.testimonial-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+.testimonial-cards .card{
+    align-items: flex-start;
+    text-align: start;
+}
+.foto-name{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+    gap: 10px;
+}
+.name{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
