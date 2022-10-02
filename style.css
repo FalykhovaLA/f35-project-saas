@@ -173,6 +173,7 @@ justify-content: start;
     display: grid;
     background-color: #eeeeee;
     justify-content: center;
+    text-align: center;
 }
 .testimonial-section h2{
     font-size: 3em;
@@ -182,4 +183,17 @@ justify-content: start;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
+}
+.testimonial-cards .card{
+    align-items: flex-start;
+    text-align: start;
+}
+.foto-name{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+}
+.name{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
